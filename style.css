@@ -1,0 +1,6 @@
+.counter div{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    margin:0 auto;
+}
