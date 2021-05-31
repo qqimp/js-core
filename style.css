@@ -4,3 +4,43 @@
     justify-content: space-between;
     margin:0 auto;
 }
+
+.form {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin:50px auto;
+    background: chocolate;
+    border: 1px dotted brown;
+    padding: 30px;
+
+}
+
+.form label {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+.form input {
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid;
+    width: inherit;
+    padding: 10px;
+    background: transparent;
+
+}
+
+.form button {
+    padding: 10px 20px;
+    border: none;
+    background: wheat;
+    border-bottom-left-radius: 10%;
+    border-top-right-radius: 10%;
+    text-transform: uppercase;
+
+}
