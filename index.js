@@ -1,5 +1,6 @@
-import "./js/dom.js"
+// import "./js/dom.js"
 // import "./js/variables.js"
+import "./js/functions.js"
  
  // получим доступ к хедеру и запишем его в переменную 
 const header = document.querySelector('header')
